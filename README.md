@@ -89,6 +89,17 @@ cd backend
 # Tạo virtual environment
 python -m venv venv
 
+AZURE_OPENAI_EMBEDDING_ENDPOINT=......
+AZURE_OPENAI_EMBEDDING_API_KEY=.......
+AZURE_OPENAI_EMBED_MODEL=.......
+AZURE_OPENAI_LLM_ENDPOINT=.......
+AZURE_OPENAI_LLM_API_KEY=.......
+AZURE_OPENAI_LLM_MODEL=GPT-4o-mini
+ 
+# ChromaDB Settings
+CHROMA_DB_PATH=./chroma_db
+COLLECTION_NAME=udemy_courses
+
 # Kích hoạt virtual environment
 # Mac/Linux:
 source venv/bin/activate

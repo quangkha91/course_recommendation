@@ -1,9 +1,10 @@
 fastapi
 uvicorn[standard]
-openai
-chromadb
-python-dotenv
-numpy
 tqdm
 pypdf
 markdown2
+pandas>=2.0.0
+chromadb>=0.4.0
+openai>=1.0.0
+python-dotenv>=0.19.0
+numpy>=1.21.0
